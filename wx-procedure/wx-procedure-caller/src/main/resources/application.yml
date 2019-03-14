@@ -1,0 +1,32 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+server:
+  port: 8082
+spring:
+  application:
+    name: service-helloworld
+    redis:
+      #   database: 0
+      host: 127.0.0.1
+      #  39.104.96.40
+      #  password: redis123!
+      port: 6379
+      # 4004
+    # 安全认证的配置
+    security:
+      basic:
+        enabled: true
+
+jwt:
+  header: Authorization
+  #令牌
+  secret: yunwanghudong
+  expiration: 604800
+  tokenHead: "Bearer:"
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+      register: auth/register

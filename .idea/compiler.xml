@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wx-procedure-caller" />
+        <module name="wx-procedure-eureka-service" />
+        <module name="wx-procedure-service" />
+        <module name="wxprocedurelogservice" />
+        <module name="wxprocedurepermissionservice" />
+        <module name="wxprocedureuserservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wx-procedure" target="1.8" />
+      <module name="wx-procedure-caller" target="1.8" />
+      <module name="wx-procedure-eureka-service" target="1.8" />
+      <module name="wx-procedure-permission-service" target="8" />
+      <module name="wx-procedure-service" target="1.8" />
+      <module name="wx.procedure.customer.service" target="8" />
+      <module name="wxprocedurecustomerservice" target="1.8" />
+      <module name="wxprocedurelogservice" target="1.8" />
+      <module name="wxprocedurepermissionservice" target="8" />
+      <module name="wxprocedureuserservice" target="1.8" />
+      <module name="wxprocesureStackLookservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+server:
+  port: 8085
+spring:
+  application:
+    name: user-service
+
+
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: ROOT@mysql123
+      url: jdbc:mysql://113.141.65.34:3306/fanxi-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+      #通用配置
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 600000
+      time-between-eviction-runs-millis: 600000
+      min-evictable-idle-time-millis: 30000
+      validation-query: select 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      filters: stat,wall,slf4j
+      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      use-global-data-source-stat: true
+
+mybatis-plus:
+  mapper-locations: classpath:mybatis/mapper/**Mapper.xml
+  #实体扫描,多个package用逗号或者分号
+  type-aliases-package: wx.procedure.user.service.entity
+  config-location: classpath:mybatis/mybatis-config.xml
+#  configuration:
+#    map-underscore-to-camel-case: true

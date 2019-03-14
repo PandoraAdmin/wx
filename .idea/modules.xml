@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/wx.iml" filepath="$PROJECT_DIR$/.idea/wx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-procedure/wx-procedure.iml" filepath="$PROJECT_DIR$/wx-procedure/wx-procedure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-procedure/wx-procedure-caller/wx-procedure-caller.iml" filepath="$PROJECT_DIR$/wx-procedure/wx-procedure-caller/wx-procedure-caller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-procedure/wx-procedure-eureka-service/wx-procedure-eureka-service.iml" filepath="$PROJECT_DIR$/wx-procedure/wx-procedure-eureka-service/wx-procedure-eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-procedure/wx-procedure-service/wx-procedure-service.iml" filepath="$PROJECT_DIR$/wx-procedure/wx-procedure-service/wx-procedure-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-procedure/wx-procedure-log-service/wxprocedurelogservice.iml" filepath="$PROJECT_DIR$/wx-procedure/wx-procedure-log-service/wxprocedurelogservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-procedure/wx-procedure-permission-service/wxprocedurepermissionservice.iml" filepath="$PROJECT_DIR$/wx-procedure/wx-procedure-permission-service/wxprocedurepermissionservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-procedure/wx-procedure-user-service/wxprocedureuserservice.iml" filepath="$PROJECT_DIR$/wx-procedure/wx-procedure-user-service/wxprocedureuserservice.iml" />
+    </modules>
+  </component>
+</project>
